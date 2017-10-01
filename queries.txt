@@ -1,0 +1,35 @@
+query{
+  allLinks {
+    id
+    url
+    description
+  }
+}
+
+mutation {
+  createLink(url: "http://www.google.com", description: "ordinary google") {
+    url
+    description
+  }
+}
+
+
+mutation {
+  createVote(linkId: "1", userId: "2") {
+    id
+    user {
+      id
+      email
+    }
+    link {
+      id
+      url
+    }
+    createdAt
+  }
+}
+
+
+
+
+
