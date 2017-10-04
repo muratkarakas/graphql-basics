@@ -8,6 +8,6 @@ Client needs data from multiple resources at the same time and different client 
 <br>Example is based on tutorial at <a href="https://www.howtographql.com/graphql-java/0-introduction/">https://www.howtographql.com</a> (Simplified version)
 
 
-<ul><li>jetty:run
+<ul><li>mvn jetty:run
 <li><a href="http://localhost:8080/">http://localhost:8080/</a>
 <li>execute queries in queries.txt(one by one) 
